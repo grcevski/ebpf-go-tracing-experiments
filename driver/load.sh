@@ -1,0 +1,1 @@
+wrk -R10000 -d60s -c20 -t20 --latency http://localhost:9090/e\?iters\=3
